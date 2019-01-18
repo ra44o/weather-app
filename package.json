@@ -1,0 +1,28 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "free weather app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ra44o/weather-app.git"
+  },
+  "author": "Rak Artsiom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ra44o/weather-app/issues"
+  },
+  "homepage": "https://github.com/ra44o/weather-app#readme",
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-cli": "^1.1.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}

@@ -1,0 +1,122 @@
+body {
+    display: flex;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.request-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 5px; 
+}
+
+.input-and-find {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-class {
+    width: 300px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.button-find {
+    border-radius: 5px;
+    /* height: 35px; */
+    border: 2px solid grey;
+    font-size: 30px;
+}
+
+.button-find:hover {
+    background-color: grey;
+}
+
+.my-weather-and-clear {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.button-myWeather {
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 30px;
+    border: 2px solid grey;
+}
+
+.button-myWeather:hover {
+    background-color: grey;
+}
+
+.button-clear {
+    width: 100px;
+    border-radius: 5px;
+    font-size: 30px;
+    border: 2px solid grey;
+}
+
+.button-clear:hover {
+    background-color: grey;
+}
+
+.answer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(220, 237, 243);
+    padding: 5px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.city {
+    width: 155px;
+    height: 20px;
+}
+
+.temperature {
+    width: 40px;
+    height: 20px;
+}
+
+.table-wpapper {
+    margin-top: 500px;
+}
+
+table {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+    width: 750px;
+    margin-left: 5px;
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(220, 237, 243);
+}
