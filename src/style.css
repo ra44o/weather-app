@@ -1,6 +1,8 @@
+@import './fonts.css';
+
 body {
     display: flex;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'kek';
 }
 
 .content-wrapper {
@@ -33,7 +35,6 @@ body {
 
 .button-find {
     border-radius: 5px;
-    /* height: 35px; */
     border: 2px solid grey;
     font-size: 30px;
 }
